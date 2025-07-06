@@ -64,7 +64,7 @@ const Footer = () => {
   const socialIcons = [
     { Icon: Facebook, href: '#', label: 'Facebook' },
     { Icon: Twitter, href: '#', label: 'Twitter' },
-    { Icon: Instagram, href: '#', label: 'Instagram' },
+    { Icon: Instagram, href: "https://instagram.com/amaanah_estates", label: 'Instagram' },
     { Icon: Linkedin, href: '#', label: 'LinkedIn' }
   ];
 
@@ -112,7 +112,7 @@ const Footer = () => {
               variants={itemVariants}
             >
               <motion.a
-                href="tel:+15551234567"
+                href="tel:+917006936512"
                 className="flex items-center text-gray-300 hover:text-yellow-400 transition-colors duration-300"
                 whileHover={{ scale: 1.05, x: 5 }}
                 whileTap={{ scale: 0.95 }}
@@ -124,7 +124,7 @@ const Footer = () => {
                   <Phone className="w-4 h-4 mr-2" />
                 </motion.div>
                 <span className="text-sm" style={{ fontFamily: 'Inter, sans-serif' }}>
-                  +1 (555) 123-4567
+                  +917006936512
                 </span>
               </motion.a>
             </motion.div>
